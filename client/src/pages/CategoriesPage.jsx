@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import API from '../api/axiosInstance';
-import ConfirmModal from '../components/ConfirmModal';
+import ConfirmModal from '../components/confirmModal';
 import { Plus, Trash2, Tags, AlertCircle } from 'lucide-react';
 
 export default function CategoriesPage() {

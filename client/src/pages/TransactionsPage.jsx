@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import API from '../api/axiosInstance';
-import ConfirmModal from '../components/ConfirmModal';
+import ConfirmModal from '../components/confirmModal';
 import { Plus, Search, Edit2, Trash2, ArrowUpRight, ArrowDownLeft, X } from 'lucide-react';
 
 export default function TransactionsPage() {

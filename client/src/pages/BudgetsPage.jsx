@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import API from '../api/axiosInstance';
-import ConfirmModal from '../components/ConfirmModal';
+import ConfirmModal from '../components/confirmModal';
 import { Plus, Edit2, Trash2, AlertCircle, CheckCircle2, AlertTriangle, X } from 'lucide-react';
 
 export default function BudgetsPage() {

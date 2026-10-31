@@ -6,7 +6,7 @@ export default function ConfirmModal({ isOpen, title, message, onConfirm, onCanc
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black bg-opacity-40">
-      <div className="bg-white rounded-xl shadow-xl max-w-md w-full p-6 animate-scaleIn">
+      <div className="bg-white rounded-xl shadow-xl max-w-md w-full p-6">
         <div className="flex items-start justify-between">
           <div className="flex items-center space-x-3">
             <div className={`p-2.5 rounded-full ${isDanger ? 'bg-red-100 text-red-600' : 'bg-indigo-100 text-indigo-600'}`}>
